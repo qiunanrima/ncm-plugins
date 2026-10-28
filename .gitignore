@@ -1,0 +1,7 @@
+# 运行期数据，不入库
+tmp/
+*.log
+__pycache__/
+node_modules/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 1,
+    "name": "NCM Agent Bridge",
+    "slug": "ncm-agent-bridge",
+    "version": "1.0.0",
+    "author": "NCM Agent Bridge",
+    "author_link": "https://github.com/std-microblock/chromatic",
+    "description": "把网易云音乐变成一个可被 AI Agent 操作的播放器：通过本地文件队列（<BetterNCM>/AgentBridge）收发命令，读取播放状态、播放/暂停、切歌、跳转进度、调整音量，并提供 DOM / 内部 channel 诊断工具。",
+    "betterncm_version": ">=1.0.0",
+    "type": "extension",
+    "ncm3-compatible": true,
+    "injects": {
+        "Main": [
+            {
+                "file": "main.js"
+            }
+        ]
+    }
+}

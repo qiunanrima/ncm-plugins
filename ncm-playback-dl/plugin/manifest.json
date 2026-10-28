@@ -1,0 +1,19 @@
+{
+    "manifest_version": 1,
+    "name": "NCM Playback DL",
+    "slug": "ncm-playback-dl",
+    "version": "1.1.3",
+    "author": "NCM Agent Bridge",
+    "author_link": "https://github.com/std-microblock/chromatic",
+    "description": "让下载走播放接口：用网易云「播放」用的 /api/song/enhance/player/url/v1 取地址（按播放音质/播放权限），再把音频落盘成普通 mp3/flac 文件。绕过下载接口的码率限制。",
+    "betterncm_version": ">=1.0.0",
+    "type": "extension",
+    "ncm3-compatible": true,
+    "injects": {
+        "Main": [
+            {
+                "file": "main.js"
+            }
+        ]
+    }
+}
